@@ -1,6 +1,6 @@
 ﻿namespace Web.DTOs
 {
-    public class CreateProductDto
+    public class UpdateProductDto
     {
         public string ProductName { get; set; } = string.Empty;
         public int BrandId { get; set; }
